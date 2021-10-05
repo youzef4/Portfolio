@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+body {
+  right: 0;
+  margin: 0em;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d42424), color-stop(50%, black));
+  background-image: linear-gradient(to right, #d42424, black 50%);
+  font-family: "Cutive Mono";
+}
+
+.navbar {
+  background: black;
+  padding: 1em;
+}
+
+.navbar .logo {
+  width: 19em;
+  padding-left: 1.5em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar a {
+  width: auto;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+  height: 3em;
+  width: 3em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+.Collaborate1 {
+  width: 16em;
+}
+
+.Collaborate1:hover {
+  display: none;
+}
+
+.Collaborate1:hover ~ .Collaborate1hover {
+  width: 14.5em;
+  position: unset;
+  display: block;
+}
+
+.Collaborate1hover {
+  display: none;
+}
+
+.About1 {
+  width: 9em;
+  margin-right: 1.5em;
+  margin-top: 1.8em;
+}
+
+.About1:hover {
+  display: none;
+}
+
+.About1:hover ~ .About1hover {
+  width: 9em;
+  margin-right: 1.5em;
+  margin-top: 1.8em;
+  display: block;
+}
+
+.About1hover {
+  display: none;
+}
+
+.Film1 {
+  width: 6.5em;
+  margin-left: 1em;
+  margin-right: 1.5em;
+  margin-top: 2.1em;
+}
+
+.Film1:hover {
+  display: none;
+}
+
+.Film1:hover ~ .Film1hover {
+  width: 6.5em;
+  margin-left: 1em;
+  margin-right: 1.5em;
+  margin-top: 2.1em;
+  display: block;
+}
+
+.Film1hover {
+  display: none;
+}
+
+.Edits1 {
+  width: 8em;
+  margin-left: 1em;
+  margin-right: 1.9em;
+  margin-top: 1.7em;
+}
+
+.Edits1:hover {
+  display: none;
+}
+
+.Edits1:hover ~ .Edits1hover {
+  width: 7em;
+  margin-left: 1.5em;
+  margin-right: 2.4em;
+  margin-top: 1.9em;
+  display: block;
+}
+
+.Edits1hover {
+  display: none;
+}
+
+.Music1 {
+  width: 8em;
+  margin-left: 1em;
+  margin-top: 1.7em;
+}
+
+.Music1:hover {
+  display: none;
+}
+
+.Music1:hover ~ .Music1hover {
+  width: 6.8em;
+  margin-left: 1.5em;
+  margin-top: 1.7em;
+  display: block;
+}
+
+.Music1hover {
+  display: none;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+.About .About2 {
+  width: 100%;
+}
+
+.Film {
+  display: -ms-grid;
+  display: grid;
+}
+
+.Film .Film2 {
+  width: 100%;
+  margin-bottom: 0.25em;
+}
+
+.Film .container-film {
+  position: absolute;
+  margin-top: 1%;
+  left: 92%;
+}
+
+.Film .social-icon-film {
+  color: rgba(255, 255, 255, 0.776);
+  font-size: 6em;
+}
+
+.Film .social-icon-film:hover {
+  color: grey;
+}
+
+.Edits .Edits2 {
+  width: 100%;
+}
+
+.Edits .container-edit {
+  position: absolute;
+  margin-top: -55%;
+  left: 92%;
+}
+
+.Edits .social-icon-edit {
+  color: rgba(255, 255, 255, 0.776);
+  font-size: 6em;
+}
+
+.Edits .social-icon-edit:hover {
+  color: grey;
+}
+
+.Music {
+  padding: 5em 2em;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(black));
+  background-image: linear-gradient(to bottom, #2a2a2a, black);
+}
+
+.Music .Heading {
+  color: #cccccc;
+  text-transform: uppercase;
+  margin-left: 1em;
+}
+
+.Music .social-icon-music {
+  position: absolute;
+  left: 91%;
+  margin-top: -2%;
+  color: rgba(255, 255, 255, 0.776);
+  font-size: 6em;
+}
+
+.Music .social-icon-music:hover {
+  color: grey;
+}
+
+.Collaborate {
+  margin-top: 0.25em;
+}
+
+.Collaborate .Collaborate2 {
+  width: 100%;
+}
+
+.Collaborate .social-list {
+  position: absolute;
+  margin-top: -40%;
+  left: 65%;
+}
+
+.Collaborate .social-icon1 {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.776);
+  font-size: 4em;
+  margin-top: 0.08em;
+}
+
+.Collaborate .social-icon1:hover {
+  color: grey;
+}
+
+.Collaborate .social-icon2 {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.776);
+  font-size: 5em;
+  margin-left: 1.05em;
+}
+
+.Collaborate .social-icon2:hover {
+  color: grey;
+}
+
+.Collaborate .social-icon3 {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.776);
+  font-size: 6em;
+  margin-left: 1.8em;
+  margin-top: -0.08em;
+}
+
+.Collaborate .social-icon3:hover {
+  color: grey;
+}
+
+.Collaborate .social-list2 {
+  position: absolute;
+  margin-top: -34%;
+  left: 55%;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+@media only screen and (max-width: 1316px) {
+  nav {
+    position: fixed;
+    z-index: 999;
+    width: 15em;
+    right: 0;
+    top: 0;
+    background: #141414;
+    height: 100%;
+  }
+  nav ul.primary-nav {
+    margin-top: 4em;
+    display: -ms-grid;
+    display: grid;
+    position: absolute;
+    grid-gap: 1em;
+    left: 5em;
+  }
+  nav ul.secondary-nav {
+    margin-top: 32em;
+  }
+  .navbar .logo {
+    width: 13em;
+  }
+  .mobile-menu,
+  .mobile-menu-exit {
+    padding-top: 0.5em;
+  }
+  .Music .Heading {
+    font-size: 1em;
+    margin-top: -3em;
+  }
+  .Music .song {
+    margin-left: 3.5em;
+  }
+  iframe {
+    width: 90%;
+    margin-left: 2em;
+    margin-top: 3em;
+    margin-right: -20em;
+  }
+  .Collaborate1 {
+    padding-left: 2.3em;
+    width: 12em;
+    margin-top: -2em;
+  }
+  .Collaborate1:hover ~ .Collaborate1hover {
+    padding-left: 3em;
+    width: 11em;
+    margin-top: -2em;
+  }
+  .Film .container-film {
+    margin-top: 0.8%;
+    left: 90%;
+  }
+  .Film .social-icon-film {
+    font-size: 200%;
+  }
+  .Edits .container-edit {
+    margin-top: -55%;
+    left: 90%;
+  }
+  .Edits .social-icon-edit {
+    font-size: 200%;
+  }
+  .Music .social-icon-music {
+    left: 90%;
+    margin-top: -1.5%;
+    font-size: 200%;
+  }
+  .Collaborate .social-list {
+    margin-top: -40%;
+    left: 60%;
+  }
+  .Collaborate .social-icon1 {
+    font-size: 1.8em;
+    margin-top: 0.25em;
+  }
+  .Collaborate .social-icon2 {
+    font-size: 2.6em;
+    margin-left: 1.05em;
+  }
+  .Collaborate .social-icon3 {
+    font-size: 3.2em;
+    margin-left: 2em;
+    margin-top: -0.05em;
+  }
+  .Collaborate .social-list2 {
+    position: absolute;
+    margin-top: -31%;
+    left: 43%;
+  }
+}
+
+@media only screen and (min-width: 1316px) {
+  .mobile-menu,
+  .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Music {
+    height: 30em;
+  }
+  .Music .Heading {
+    font-size: 2.2em;
+    margin-top: -0.5em;
+  }
+  .Music .song {
+    margin-left: 26.5em;
+  }
+  iframe {
+    width: 70%;
+    margin-left: 16em;
+    margin-top: 6em;
+    margin-bottom: 1em;
+  }
+  .Collaborate1 {
+    margin-top: 1.5em;
+    padding-right: 3em;
+  }
+  .Collaborate1:hover ~ .Collaborate1hover {
+    margin-top: 1.5em;
+    padding-right: 3em;
+  }
+  .About1 {
+    margin-left: 13em;
+  }
+  .About1:hover ~ .About1hover {
+    margin-left: 13em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
